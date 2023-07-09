@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.primary-button{
+.primary-button {
     text-transform: uppercase;
     background-color: #F52C2C;
     color: #fff;
@@ -12,33 +12,35 @@
     border: none;
 }
 
-.secondary-button{
+.secondary-button {
     text-transform: uppercase;
     background-color: #ffffff;
     color: #000000;
     padding: 15px 35px;
     font-size: 16px;
-    border: none; 
+    border: none;
 }
 
-.third-button{
+.third-button {
     background-color: #ffffff;
     color: gray;
     padding: 15px 35px;
     font-size: 16px;
-    border: none; 
+    border: none;
     border-radius: 25px;
 }
 
-.fourth-button{
+.fourth-button {
     background-color: #ffffff;
     color: #F52C2C;
     padding: 15px 35px;
     font-size: 16px;
-    border: none; 
+    border: none;
     border-radius: 25px;
     height: 50px;
+    text-transform: uppercase;
 }
+
 /* defaul css end */
 
 /* header css start */
@@ -75,10 +77,11 @@ header {
     margin-left: 20px;
     color: black;
 }
+
 /* header css end */
 
 /* banner css start */
-.banner{
+.banner {
     height: 89vh;
     background: url('./asset/image/background.jpg');
     background-repeat: no-repeat;
@@ -87,7 +90,7 @@ header {
     align-items: center;
 }
 
-.bg-overlay{
+.bg-overlay {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -96,67 +99,68 @@ header {
     text-align: center;
 }
 
-.digital-banner{
+.digital-banner {
     margin: auto;
     width: 55%;
 }
 
-.bnr-btn{
+.bnr-btn {
     margin-right: 10px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 86px;
     font-weight: 900;
     color: #fff;
 }
 
-.banner-text{
+.banner-text {
     font-size: 22px;
     color: #fff;
     padding: 15px 0px 25px 0px;
 }
+
 /* banner css end */
 
 /* sercive css start */
-.services{
-    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+.services {
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     color: #fff;
     background-blend-mode: overlay;
     height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px;
+    padding: 0px 100px 95px;
 }
 
-.service-left{
+.service-left {
     width: 50%;
 }
 
-.service-title{
+.service-title {
     font-size: 40px;
     font-weight: bold;
     padding-top: 25px;
 }
 
-.service-text{
+.service-text {
     color: #BECFD0;
     font-size: 20px;
     margin: 25px 0px;
 }
 
-.service-number{
+.service-number {
     padding-left: 20px;
 }
 
-.more{
+.more {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.ceo{
+.ceo {
     border-right: 1px solid #F52C2C;
     display: flex;
     align-items: center;
@@ -164,9 +168,121 @@ header {
     margin-right: 15px;
 }
 
-.ceo-image{
+.ceo-image {
     width: 75px;
     border-radius: 10000px;
     margin-right: 10px;
 }
+
+.service-right {
+    width: 50%;
+}
+
+.srv-block-row {
+    width: 100%;
+    display: flex;
+}
+
+.service-block {
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 50px;
+}
+
+.service-icon {
+    width: 100px;
+    padding: 20px;
+}
+
 /* sercive css end */
+
+/* appointment css start */
+.appointment {
+    background-color: #F52C2C;
+    color: rgb(255, 255, 255);
+    padding: 30px 35px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin:-80px auto 0px auto;
+}
+
+.call {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    width: 35%;
+    border-right: 1px solid #fff;
+}
+
+.call img {
+    width: 100px;
+}
+/* appointment css end */
+
+/* blog css start */
+.blog-section{
+    padding: 50px 0px 50px;
+    text-align: center;
+}
+
+.blog-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.blog-description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.post-block{
+    width: 25%;
+    text-align: left;
+    box-shadow:0px 0px 50px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.featured-image{
+    width: 100% !important;
+    border-radius: 5px 5px 0px 0px;
+    height: 213.64px !important;
+
+}
+
+.post-title{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px 0px;
+}
+
+.post-excerpt{
+    font-size: 18;
+    color: #000;
+    margin-top: 15px;
+    padding: 5px !important;
+}
+
+p.post-excrept {
+    padding: 20px;
+}
+/* blog css end */
