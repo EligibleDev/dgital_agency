@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+.primary-button{
+    text-transform: uppercase;
+    background-color: #F52C2C;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+}
+
+.secondary-button{
+    text-transform: uppercase;
+    background-color: #D5D2D2;
+    color: #000;
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none; 
+}
 /* defaul css end */
 
 /* header css start */
@@ -11,16 +28,17 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: #D5D2D2;
-    padding:15px;
+    padding: 15px;
+    height: 7vh;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     color: #F52C2C;
 }
 
-.site-logo{
+.site-logo {
     width: 200px;
 }
 
@@ -39,3 +57,44 @@ header {
     color: black;
 }
 /* header css end */
+
+/* banner css start */
+.banner{
+    height: 89vh;
+    background: url('./asset/image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.digital-banner{
+    margin: auto;
+    width: 55%;
+}
+
+.bnr-btn{
+    margin-right: 10px;
+}
+
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.banner-text{
+    font-size: 22px;
+    color: #fff;
+    padding: 15px 0px 25px 0px;
+}
+/* banner css end */
